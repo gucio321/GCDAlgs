@@ -2,8 +2,9 @@
 
 using namespace std;
 
-int input(const char* value) {
-        cout << value;
+// input loads intager value from the standard input (displaying 'text'
+int input(const char* text) {
+        cout << text;
         int output;
         cin >> output;
         return output;
